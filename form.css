@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #555;
+    background: #ecf0f3;
+}
+div{
+    background-color: #3333;
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+    border-radius:20px;
+    width: 100%;
+    height: 500px;
+    border-radius: 40px;
+    background:#ecf0f3;
+    box-shadow: 13px 13px 13px #cbced1,-13px -13px 20px #ffffff;
+}
+#btn{
+    background-color: #34eb6e;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    text-transform: capitalize;
+    transition:width 5s;
+    
+}
+.input{
+    border:none;
+    outline:none;
+    background: none;
+    font-size: 18px;
+    color:#555;
+    padding:20px 10px 20px 5px;
+    width:95%;
+    
+}
+.username,.password{
+    margin: 20px 50px;
+    border-radius:25px;
+    box-shadow: inset 8px 8px 8px #cbced1,inset -8px -8px 8px #ffffff;
+    text-align: center;
+}
+.login{
+    outline: none;
+    border: none;
+    width: 50%;
+    height:60px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    text-align:center;
+    background-color: #24cfaa;
+    box-shadow: 3px 3px 8px #616161,-3px-3px 8px #ffffff ;
+    transition: 0.5px;
+   
+}
+#btn:hover{
+    background-color: #2fdbb6;
+}
+#btn:active{
+    background-color: #d883b2;
+}
+p{
+    font-weight: 500;
+    font-size: medium;
+}
